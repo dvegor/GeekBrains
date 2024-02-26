@@ -39,7 +39,7 @@ namespace L1_Server
             {
                 var reader = new StreamReader(client.GetStream());
                 var messege = await reader.ReadLineAsync();
-                Console.WriteLine("asd");
+                Console.WriteLine(messege);
             }
         }
     }
